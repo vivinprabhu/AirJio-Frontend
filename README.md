@@ -1,8 +1,19 @@
-# React + Vite
+Frontend : React Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RazorPay(test) was implemented for making secure payments. The hosted website will not include RazorPay (third party JavaScript SDK won't be allowed freely)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+git clone https://github.com/vivinprabhu/AirJio-Frontend
+```
+
+Uncomment the following line in public/index.html
+```
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+```
+Install necessary node packages
+
+To run the project
+```
+npm run dev
+```
