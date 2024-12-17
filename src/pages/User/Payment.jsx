@@ -26,7 +26,7 @@ const handleSubmit = (e) => {
             prefill: {
                 name: "AirJio",
                 email: "airjio@gmail.com",
-                conatct: "7708507527"
+                conatct: "7700507227"
             },
             notes: {
                 address: "AirJio RazorPay office"
