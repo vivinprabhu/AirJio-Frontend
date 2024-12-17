@@ -17,7 +17,7 @@ import Transaction from "./pages/User/Transaction";
 
 function App(){
     return(
-        <Router>
+        <Router basename="/AirJio-Frontend/">
             <Routes>
                 <Route path="/" element={<Landing/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
